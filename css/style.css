@@ -7,3 +7,23 @@
 body {
     background-color: aquamarine;
 }
+
+ul {
+    list-style: none;
+}
+
+/* HEADER */
+
+header {
+    height: 60px;
+    line-height: 60px;
+    background-color: lightblue;
+}
+
+header .menu {
+    display: flex;
+}
+
+header .menu li {
+    margin: 0 1rem
+}
