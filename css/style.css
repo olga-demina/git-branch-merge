@@ -1,29 +1,40 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: aquamarine;
+  background-color: aquamarine;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 /* HEADER */
 
 header {
-    height: 60px;
-    line-height: 60px;
-    background-color: lightblue;
+  height: 60px;
+  line-height: 60px;
+  background-color: lightblue;
 }
 
 header .menu {
-    display: flex;
+  display: flex;
 }
 
 header .menu li {
-    margin: 0 1rem
+  margin: 0 1rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 1rem;
+}
+
+footer a {
+    color: inherit;
 }
